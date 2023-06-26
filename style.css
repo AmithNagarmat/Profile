@@ -1,0 +1,273 @@
+.name{
+    font-size: 50px;
+    font-style: italic;
+    margin-left: 400px;
+
+}
+
+.text{
+    margin-top: 200px;
+    color: white;
+    margin-left: 200px;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 800;
+}
+#last{
+    color: #ee6e73;
+}
+.hello{
+    margin-top: 150px;
+    font-size: 20px;
+}
+#m{
+    color: #ee6e73;
+}
+.me{
+    color: red;
+    margin-top: 1000px;
+    background-color: whitesmoke;
+}
+
+.backimg{
+    background: url(photoshop.jpg.png);
+    width: 1600px;
+    height: 900px;
+    
+   
+  
+    
+    
+}
+.nav{
+    position: fixed;
+    background-color: #ee6e73;
+    width: 100%;
+}
+.me{
+    color: black;
+    margin: 0%;
+    font-size: 40px;
+    text-align: center;
+    font-style: italic;
+    font-weight: 900;
+    
+}
+.iam{
+    text-align: center;
+   color: #ee6e73;
+    font-weight: 900;
+    font-size: 20px;
+    
+}
+#blogger{
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+.aboutme{
+    margin-top: 5%;
+    text-align: center;
+}
+#col{
+    color: #ee6e73;
+}
+.itsme{
+    margin-left: 10%;
+}
+.devel{
+    font-weight: 300;
+}
+.color{
+    background-color: black;
+    height: 400px;
+}
+.profile{
+    text-align: center;
+    font-size: 30px;
+   margin-top: 20px;
+    color: aliceblue;
+    
+  
+}
+.social{
+    font-size: 15px;
+    color: #ee6e73;
+}
+.box2{
+    border: grey ridge ;
+    width: 20%;
+    background-color:rgb(61, 58, 58);
+    margin-left: 20%;
+    margin-bottom: 0%;
+    
+}
+.box2:hover{
+    background-color: #ee6e73;
+}
+#myresume{
+    font-size: 10px;
+}
+.mycv{
+border: #ee6e73 ridge;
+width: 60%;
+font-size: 20px;
+margin-left: 20%;
+color: aliceblue;
+}
+
+.box1{
+    border: grey ridge ;
+    width: 20%;
+    height: 200px;
+    background-color:rgb(61, 58, 58);
+   margin-left: 0%;
+}
+.box1:hover{
+    background-color: #ee6e73;
+}
+.container{
+    display: flex;
+}
+.mygit{
+    border: #ee6e73 ridge;
+width: 50%;
+font-size: 20px;
+margin-left: 25%;
+color: aliceblue;
+}
+#mygithub{
+    font-size: 10px;
+}
+.mygit{
+    border: #ee6e73 ridge;
+width: 60%;
+font-size: 20px;
+margin-left: 20%;
+}
+#mylinkedin{
+    font-size: 10px;
+}
+.mylink{
+    border: #ee6e73 ridge;
+width: 60%;
+font-size: 20px;
+margin-left: 20%;
+color: aliceblue;
+}
+.box3{
+    border: grey ridge ;
+    width: 20%;
+    height: 200px;
+    background-color:rgb(61, 58, 58);
+   margin-left: 20%;
+}
+.box3:hover{
+    background-color: #ee6e73;
+}
+.myskills{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.know{
+    font-size: 15px;
+    color: #ee6e73;
+}
+#h6{
+    list-style: none;
+    color: black;
+    
+    
+}
+.precentage{
+    width: 500px;
+    margin: 60px;
+    color: white;
+    padding: 40px;
+    box-shadow: 0 20px 40px rgb(0, 0, 0,0.25);
+    font-weight: 400;
+    background-color: black;
+    margin-left: 33%;
+    margin-top: 0%;
+    
+}
+
+.bar{
+    background: white;
+    display: block;
+    height: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px black;
+    transition: all 30s cubic-bezier(.25,.8,.25,.1);
+}
+.bar:hover{
+    box-shadow: 0 14px 28px black;
+}
+
+.bar span{
+    height: 20px;
+    float: left;
+    background: linear-gradient(135deg, pink)(100%);
+}
+.html{
+    width: 60%;
+    animation: html 3s;
+    background-color: #ee6e73;
+}
+.css{
+    width: 50%;
+    animation: css 3s;
+    background-color: #ee6e73;
+}
+.java{
+    width: 30%;
+    animation: java 3s;
+    background-color: #ee6e73;
+}
+.react{
+    width: 20%;
+    animation: java 3s;
+    background-color: #ee6e73;
+}
+.contact{
+    color: black;
+    margin: 0%;
+    font-size: 40px;
+    text-align: center;
+    font-style: italic;
+    font-weight: 900;
+    
+}
+.mycontact{
+    text-align: center;
+   color: #ee6e73;
+    font-weight:900;
+    font-size: 20px;
+
+}
+.touch{
+    font-weight: 900;
+    margin-left: 180px;
+}
+#expert{
+    font-weight: 600;
+}
+ .footer{
+ background-color: black;
+ }
+ .creats{
+    color: aliceblue;
+    text-align: center;
+ }
+ .by{
+    color: #ee6e73;
+ }
+ 
+@media screen and (max-width:600px){
+    #box2 #box3 #box1{
+        flex-direction: column;
+    }
+} 
